@@ -10,8 +10,10 @@ public class CalcTest {
     @Test
     void testAdd()
     {
-        newcalc.add(4,6);
+        newcalc=new Calc();
         assertEquals(10,newcalc.add(4,6));
     }
+
+
 
 }
